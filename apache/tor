@@ -78,7 +78,14 @@ NameVirtualHost	*:80
 	# alert, emerg.
 	LogLevel crit
 
-#	CustomLog /var/log/apache2/tor2web.access.log combined
+	CustomLog /dev/null combined
+
+# When you need to enable debugging, switch that lines on. Apache logs with IP sanitized.
+# From http://www.autistici.org/orangebook/html-en/c1043.html
+#    LogFormat "127.0.0.1 %l %u %t \"%r\" %>s %b \"%{Referer}i\" \"%{User-Agent}i\"" anonymous
+#    CustomLog /var/log/apache2/anonymous_access_log anonymous
+
+# Logging disabled
 	CustomLog /dev/null combined
 
     AddType application/x-httpd-php .php 
