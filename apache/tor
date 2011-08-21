@@ -16,9 +16,7 @@ NameVirtualHost	*:80
     SetHandler server-status
     </Location>
 
-	ServerAdmin privacyresearch@infosecurity.ch
-        ServerName      tor2web.infosecurity.ch
-        ServerAlias     *.tor.infosecurity.ch
+	ServerAdmin info@tor2web.org
         ServerAlias     *.tor2web.org
         ServerAlias     *.tor2web.com
 
@@ -74,14 +72,13 @@ NameVirtualHost	*:80
                 allow from all
         </Directory>
 
-	ErrorLog /var/log/apache2/tor.infosecurity.ch.error.log
+	ErrorLog /var/log/apache2/tor2web.error.org
 
 	# Possible values include: debug, info, notice, warn, error, crit,
 	# alert, emerg.
 	LogLevel crit
 
-#	CustomLog /var/log/apache2/tor.infosecurity.ch.access.log "%v %h %l %u %t \"%r\" %>s %b"
-	CustomLog /var/log/apache2/tor.infosecurity.ch.access.log combined
+#	CustomLog /var/log/apache2/tor2web.access.log combined
 	CustomLog /dev/null combined
 
     AddType application/x-httpd-php .php 
