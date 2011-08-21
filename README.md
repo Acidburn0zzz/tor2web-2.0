@@ -18,3 +18,6 @@ contains the privoxy configuration to use in conjunction with tor
 
 /scripts
 contain scripts useful for the maintenance of tor2web nodes
+
+/monit
+contains the checks useful for verify the uptime of the services involved.
