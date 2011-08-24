@@ -31,7 +31,7 @@ set logfile syslog facility log_daemon
 ## specified using comma separator. By default monit uses port 25 - this
 ## is possible to override with the PORT option.
 #
-set mailserver mail.globaleaks.org
+set mailserver lists.tor2web.org
 #                backup.bar.baz port 10025,  # backup mailserver on port 10025
 #                localhost                   # fallback relay
 #
@@ -76,7 +76,7 @@ set mailserver mail.globaleaks.org
 ## service defined in this file has errors. Alerts may be restricted on 
 ## events by using a filter as in the second example below. 
 #
-set alert info@globaleaks.org
+set alert ops@lists.tor2web.org
 # set alert manager@foo.bar only on { timeout }  # receive just service-
 #                                                # timeout alert
 #
