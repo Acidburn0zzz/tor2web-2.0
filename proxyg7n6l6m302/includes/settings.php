@@ -24,7 +24,7 @@
 // folder inside the /themes/ folder.
 $CONFIG['theme'] = 'tor2web';
 
-$CONFIG['email'] = 'info@globaleaks.org';
+$CONFIG['email'] = 'ops@lists.tor2web.org';
 
 // Temporary directory used by the script. Many features require
 // write permission to the temporary directory. Ensure this
