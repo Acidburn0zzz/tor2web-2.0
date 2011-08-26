@@ -8,6 +8,11 @@ NameVirtualHost	*:80
     ServerAlias	*.tor2web.com
     RewriteEngine On
     RewriteRule ^(.*)$ https://%{HTTP_HOST}$1
+
+# Fix for CVE-2011-3192 Apache DOS
+    SetEnvIf Range (,.*?){5,} bad-range=1
+    RequestHeader unset Range env=bad-range
+
 </VirtualHost>
 
 
@@ -34,6 +39,11 @@ NameVirtualHost	*:80
     SSLEngine on
     SSLCertificateFile    /etc/ssl/certs/tor2web.pem
     SSLCertificateKeyFile /etc/ssl/private/tor2web.key
+
+# Fix for CVE-2011-3192 Apache DOS
+    SetEnvIf Range (,.*?){5,} bad-range=1
+    RequestHeader unset Range env=bad-range
+
 
     RewriteEngine On
 
