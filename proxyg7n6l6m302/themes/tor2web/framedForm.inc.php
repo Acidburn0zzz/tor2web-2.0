@@ -133,7 +133,7 @@ echo <<<OUT
 <img src="/proxyg7n6l6m302/themes/tor2web/tor2web-small.png" class="resized-logo">
 <p class="left-align">
 	Tor2web servers <b>are not hosting this web content</b> you are viewing.<br>
-	Tor2web can identify the IP of visitors of this site, we strongly suggest to access this site directly with <a href="https://www.torproject.org/download/download.html.en">Tor Browser Bundle</a> to increase your anonymity and efficiency.
+    Your internet service provider can determine that you've visited this site. Use the <a href="https://www.torproject.org/download/download.html.en">Tor Browser Bundle</a> for much stronger privacy.
 </p>
 
 <p class="right-align">
