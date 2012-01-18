@@ -1,7 +1,7 @@
 <style type="text/css">
    /* Make room for the mini-form */
    html body { margin-top: 330px; }
-   
+
    /* Reset all styles */
 /*
    #include * {
@@ -23,7 +23,7 @@
    #include script {
       display:none;
    }
- */  
+ */
    /* Style the mini-form div */
    #include9feb363fa5ef614a8c5849afe9b9d826
    {
@@ -37,10 +37,21 @@
       position: absolute;
       top:0; left:0;
       height: 280px;
-      z-index: 100000;
+      z-index: 100;
       width: 100%;
    }
 
+
+   #censored9feb363fa5ef614a8c5849afe9b9d826 {
+      width: 100%;
+      height: 600px;
+      background-color: black;
+      color: #EEE;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 9999;
+   }
    #wrapper9feb363fa5ef614a8c5849afe9b9d826 {
      width: 800px;
      margin: 0 auto;
@@ -55,7 +66,7 @@
       border: 0;
       padding: 0;
    }
-   #include9feb363fa5ef614a8c5849afe9b9d826 .resized-logo 
+   #include9feb363fa5ef614a8c5849afe9b9d826 .resized-logo
    {
       width: auto;
    }
@@ -74,7 +85,7 @@
       text-align: right;
       font-size: 14px;
    }
-   
+
    #include9feb363fa5ef614a8c5849afe9b9d826 a { color: #ce6c1c; }
    #include9feb363fa5ef614a8c5849afe9b9d826 a:hover { color: #ccc; }
 /* not used at the moment ?
@@ -109,7 +120,7 @@
        }
      }
    }
-   
+
    function hidebar() {
        document.cookie = "hide=true;";
        document.getElementById("include9feb363fa5ef614a8c5849afe9b9d826").style.display = 'none';
@@ -118,7 +129,11 @@
    }
 </script>
 
-
+<div id="censored9feb363fa5ef614a8c5849afe9b9d826">
+The Stop Online Piracy Act (SOPA) and Protect IP Act (PIPA) threaten freedom of expression on the
+internet. We therefore participate to the internet blackout to fight against such repressive laws.
+<a href="http://sopablackout.org/learnmore/">Learn more</a>
+</div>
 <div id="include9feb363fa5ef614a8c5849afe9b9d826">
 <div id="wrapper9feb363fa5ef614a8c5849afe9b9d826">
 <?php
@@ -143,7 +158,7 @@ echo <<<OUT
 
 <p class="left-align">
 	<noscript><b>javascript is required for hide this disclaimer, when enabled, you could:</b> </noscript>
-	<i>Click <a href="#" onclick="hidebar()">here to hide this disclaimer</a>.</i> 
+	<i>Click <a href="#" onclick="hidebar()">here to hide this disclaimer</a>.</i>
 </p>
 
 <div id="color-border"></div>
