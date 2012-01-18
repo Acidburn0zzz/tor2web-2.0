@@ -43,14 +43,24 @@
 
 
    #censored9feb363fa5ef614a8c5849afe9b9d826 {
-      width: 100%;
-      height: 600px;
-      background-color: black;
-      color: #EEE;
-      position: absolute;
-      top: 0;
-      left: 0;
-      z-index: 9999;
+    width: 800px;
+    height: 100px;
+    background-color: black;
+    color: #EEE;
+    position: absolute;
+    top: 50px;
+    left: 80px;
+    z-index: 9999;
+    padding: 100px;
+    font-size: 20px;
+   }
+
+
+   #censored9feb363fa5ef614a8c5849afe9b9d826 a {
+    color: white;
+   }
+   #censored9feb363fa5ef614a8c5849afe9b9d826 a:* {
+    color: white;
    }
    #wrapper9feb363fa5ef614a8c5849afe9b9d826 {
      width: 800px;
@@ -131,7 +141,7 @@
 
 <div id="censored9feb363fa5ef614a8c5849afe9b9d826">
 The Stop Online Piracy Act (SOPA) and Protect IP Act (PIPA) threaten freedom of expression on the
-internet. We therefore participate to the internet blackout to fight against such repressive laws.
+internet.
 <a href="http://sopablackout.org/learnmore/">Learn more</a>
 </div>
 <div id="include9feb363fa5ef614a8c5849afe9b9d826">
